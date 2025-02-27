@@ -326,6 +326,17 @@ div:hover > .icon-container {
 div:hover > .icon-container svg {
   color: #fff;
 }
+.wp-caption {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.wp-caption img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 @media screen and (max-width: 768px) {
   #services .service h3,
